@@ -15,7 +15,7 @@ for position in starting_positions:
     new_segment.penup()
     new_segment.goto(position)
     segment.append(new_segment)
-
+#Moving snake continously
 game_is_on = True
 while game_is_on:
     for seg in segment:
